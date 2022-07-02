@@ -18,14 +18,18 @@
     padding: 1rem;
     border-radius: 4px;
     color: black;
+    opacity: 0;
+    transition: 0.5s ease-in-out;
 }
 
 .bilgi--success {
     border: 1px solid green;
+    opacity: 1;
 }
 
 .bilgi--error {
     border: 1px solid red;
+    opacity: 1;
 }
 
 .fa-regular {
